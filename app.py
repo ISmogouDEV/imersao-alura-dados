@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv(r'C:\ProjetoPython\imersao_alura_dash\dados-imersao-dev.csv')
+df = pd.read_csv('dados-imersao-dev.csv')
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
